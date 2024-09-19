@@ -11,6 +11,3 @@ export default class extends BaseSeeder {
     await UserFactory.createMany(10)
   }
 }
-
-
-cd build & npm ci --omit="dev"  & node bin/server.js
